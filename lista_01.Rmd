@@ -1,0 +1,84 @@
+---
+title: 'Lista 01 - Macroeconomia'
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Aplicações
+
+### Questão 01
+
+**Trecho 01:**
+
+  - **Jornal:Valor Econômico.**
+  - **Autor: Álvaro Fagundes.** 
+  - **Data: 01/06/2023.**
+  
+_"PIB: Brasil tem 4ª maior alta entre 50 maiores economias no 1º tri"_
+
+_"Alta da economia brasileira só ficou atrás das de Hong Kong (5,3%), Polônia 
+(3,8%) e China (2,2%) e foi idêntica à da Tailândia."_
+
+**Trecho 02:**
+
+  - **Jornal:Valor Econômico.**
+  - **Autor: Sergio Lamucci.** 
+  - **Data: 01/06/2023.**
+  
+_"ANÁLISE: PIB surpreende com impulso extraordinário do agro, mas demanda 
+doméstica tem ritmo fraco"_
+
+_"O resultado do PIB do primeiro trimestre mostrou um crescimento forte, bem 
+acima das projeções dos analistas, com um alta muito expressiva e muito 
+concentrada na agropecuária. [...] Pelo lado da demanda, o resultado do PIB 
+trouxe notícias menos favoráveis. A mais negativa foi a queda de 3,4% do 
+investimento, a segunda queda trimestral seguida. O consumo das famílias também 
+teve um desempenho pouco exuberante – avançou 0,2%, em desaceleração pelo 
+terceiro trimestre seguido, apesar da força do mercado de trabalho e do volume 
+expressivo de transferências de renda do governo via Bolsa Família. O consumo 
+do governo, por sua vez, cresceu 0,3%."_
+
+**Interpretações**
+
+1. A partir do crescimento do PIB indicado pode-se inferir que há uma relativa 
+melhora na qualidade de vida da população no primeiro trimestre relacionada ao 
+aumento de renda. Contudo, deve-se levar em consideração que há limites de 
+avaliação para o PIB na medida em que este não reflete à desigualdade acentuada, 
+principalmente, em um contexto de crescimento “puxado” pela agropecuária
+
+2. Dado o aumento do valor da transferência de renda via Bolsa Família, aprovado 
+no início do Governo, não era de se esperar um resultado negativo dos 
+investimentos (componente da demanda agregada)  
+
+3. Os baixos crescimentos apresentados pelos componentes da demanda agregada 
+internos e privados podem ter relação ao alto valor da taxa de juros básica da 
+economia que acabam por encarecer os valores de empréstimos e financiamentos
+
+4. A partir dos dados apresentados não há evidências para se afirmar que a 
+inflação de demanda está controlada no ano e, portanto, não há razões para o 
+Banco Central do Brasil baixar a taxa de juros SELIC
+
+5. O nível de taxa de câmbio nominal próximo de 5 R$/U$ acabou por prejudicar o 
+desempenho da economia brasileira no primeiro trimestre de 2023, uma vez que a 
+desvalorização da moeda reduz as receitas de exportações
+
+
+
+```{r quiz}
+quiz(
+  question('Avalie os trechos dos artigos publicados no jornal Valor Econômico 
+           em 01/06/2023 e marque a alternativa correta',
+    answer('Apenas as interpretações I, II III estão corretas'),
+    answer('Apenas as interpretações II e V estão corretas'),
+    answer('Apenas as interpretações II, III e IV estão corretas', correct = TRUE),
+    answer('Apenas as interpretações IV e V estão corretas'),
+    answer('Apenas as interpretações II, III e V estão corretas')
+  )
+)
+```
+
